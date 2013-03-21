@@ -1,0 +1,12 @@
+<li>
+    <header>
+        <span class="from"><%= to %></span>
+        <span class="subject"><%= subject %></span>
+        <span class="date"><%= new Date(created_at).toDateString() %></span>
+    </header>
+    <article>
+        <div class="body">
+            <%= body %>
+        </div>
+    </article>
+</li>

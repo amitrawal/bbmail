@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Description:</b>
+  <%= @mail.description %>
+</p>
+
+<p>
+  <b>Subject:</b>
+  <%= @mail.subject %>
+</p>
+
+<p>
+  <b>Receiver:</b>
+  <%= @mail.receiver_id %>
+</p>
+
+<p>
+  <b>Created at:</b>
+  <%= @mail.created_at %>
+</p>
+
+<p>
+  <b>Udpated at:</b>
+  <%= @mail.updated_at %>
+</p>
+
+
+<%= link_to 'Edit', edit_mail_path(@mail) %> |
+<%= link_to 'Back', mails_path %>
